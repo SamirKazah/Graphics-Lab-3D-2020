@@ -1,0 +1,189 @@
+Using pre-set license
+Built from '2020.2/release' branch; Version is '2020.2.1f1 (270dd8c3da1c) revision 2559448'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.0) 64bit' Language: 'en' Physical Memory: 16200 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Samir Kazah/Documents/GroovyAntoid/GraphicsLab3D
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+12286
+Successfully changed project path to: C:/Users/Samir Kazah/Documents/GroovyAntoid/GraphicsLab3D
+C:/Users/Samir Kazah/Documents/GroovyAntoid/GraphicsLab3D
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 162.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Samir Kazah/Documents/GroovyAntoid/GraphicsLab3D/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA Quadro M1000M (ID=0x13b1)
+    Vendor:   
+    VRAM:     4065 MB
+    Driver:   22.21.13.8205
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56376
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004969 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 123.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.784 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003198 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 131.78 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.692 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.87 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2379 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.4 MB.
+System memory in use after: 116.6 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2828.
+Total: 8.180500 ms (FindLiveObjects: 1.166800 ms CreateObjectMapping: 0.561900 ms MarkObjects: 6.260600 ms  DeleteObjects: 0.188000 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Silverpaw_meow.unitypackage
+  artifactKey: Guid(3855a7ec1d8198347b59d39ed307fb7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Silverpaw_meow.unitypackage using Guid(3855a7ec1d8198347b59d39ed307fb7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2032cdcccc596fc2dd9af3d9441f644') in 0.150395 seconds
+  Import took 0.162239 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002999 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.165 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2264 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 113.6 MB.
+System memory in use after: 113.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2834.
+Total: 5.319300 ms (FindLiveObjects: 0.516000 ms CreateObjectMapping: 0.230800 ms MarkObjects: 4.540700 ms  DeleteObjects: 0.029800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.277718 seconds.
+  path: Assets/Silverpaw
+  artifactKey: Guid(ef9ac105f8abf034a80eae80d91b72dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Silverpaw using Guid(ef9ac105f8abf034a80eae80d91b72dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70b89a0234445e3b2c494ec02ebe47de') in 0.017729 seconds
+  Import took 0.025727 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.574329 seconds.
+  path: Assets/Silverpaw/Character
+  artifactKey: Guid(507fc1dbc81d4a94484366ed5a50a51a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Silverpaw/Character using Guid(507fc1dbc81d4a94484366ed5a50a51a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca6037c77ea23cb3bd05e6a52b05e859') in 0.017390 seconds
+  Import took 0.026353 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.419678 seconds.
+  path: Assets/Silverpaw/Silverpaw.prefab
+  artifactKey: Guid(0939624cc0f9e854ca1de47113619080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Silverpaw/Silverpaw.prefab using Guid(0939624cc0f9e854ca1de47113619080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6b3912ceb9f9a2141451db13437d19c') in 0.607208 seconds
+  Import took 0.616343 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.728125 seconds.
+  path: Assets/Silverpaw/Character/ThirdPersonCamera.cs
+  artifactKey: Guid(1be816c9557496549b098f0061387d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Silverpaw/Character/ThirdPersonCamera.cs using Guid(1be816c9557496549b098f0061387d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4325542acc27d276e3a64bcc2743cc64') in 0.042989 seconds
+  Import took 0.052184 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.890884 seconds.
+  path: Assets/Silverpaw/Character/Silverpaw.fbx
+  artifactKey: Guid(c7d01de22b357c541b865cea8156e55f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Silverpaw/Character/Silverpaw.fbx using Guid(c7d01de22b357c541b865cea8156e55f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aea7696c68a6976c165e945587d4791d') in 0.244292 seconds
+  Import took 0.255345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.844298 seconds.
+  path: Assets/Silverpaw/Character/Player.cs
+  artifactKey: Guid(65b71b94365709f408f468fcea62c610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Silverpaw/Character/Player.cs using Guid(65b71b94365709f408f468fcea62c610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a61d48cbcc9df44116dd7047bc4dce67') in 0.017563 seconds
+  Import took 0.028305 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.629461 seconds.
+  path: Assets/Silverpaw/Character/CharacterController.controller
+  artifactKey: Guid(4d4f0b5ab58c9164f82dfcfbdf2f9870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Silverpaw/Character/CharacterController.controller using Guid(4d4f0b5ab58c9164f82dfcfbdf2f9870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dd5814df95aa2fd9313f6dbfc7378b2') in 0.038588 seconds
+  Import took 0.048112 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.292070 seconds.
+  path: Assets/Silverpaw/Character/Materials
+  artifactKey: Guid(a94323a4b23cfe74e8cec27a0212569a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Silverpaw/Character/Materials using Guid(a94323a4b23cfe74e8cec27a0212569a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce1d842ad00ec4500159dd36565272c3') in 0.019565 seconds
+  Import took 0.030110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.823774 seconds.
+  path: Assets/Silverpaw/Character/Materials/Silverpaw_Tex.png
+  artifactKey: Guid(3dc7fb0bf17908f469896fb1f800f76e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Silverpaw/Character/Materials/Silverpaw_Tex.png using Guid(3dc7fb0bf17908f469896fb1f800f76e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ea8de05291dfcd59c4194f740f69365') in 0.059340 seconds
+  Import took 0.068109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016389 seconds.
+  path: Assets/Silverpaw/Character/Materials/Silverpaw_Tex.png
+  artifactKey: Guid(3dc7fb0bf17908f469896fb1f800f76e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Silverpaw/Character/Materials/Silverpaw_Tex.png using Guid(3dc7fb0bf17908f469896fb1f800f76e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ea8de05291dfcd59c4194f740f69365') in 0.029988 seconds
+  Import took 0.039749 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
