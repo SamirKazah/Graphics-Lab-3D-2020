@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637482437980047447
-    m_Hash: 3619773632
+      ticks: 637512558865347906
+    m_Hash: 2941783987
   m_LockFileStatus:
     m_FilePath: C:/Users/Samir Kazah/Documents/UnityProjects/Graphics-Lab-3D-2020/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637500292835861156
-    m_Hash: 3742702844
+      ticks: 637512558879610965
+    m_Hash: 3710291675
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -159,6 +159,7 @@ m_PackageAssets:
         - 3.0.2
         - 3.0.3
         - 3.0.4
+        - 3.0.5
         compatible:
         - 1.0.2
         - 1.0.6
@@ -182,6 +183,7 @@ m_PackageAssets:
         - 3.0.2
         - 3.0.3
         - 3.0.4
+        - 3.0.5
         verified: 2.0.7
       dependencies:
       - name: com.unity.test-framework
@@ -410,6 +412,8 @@ m_PackageAssets:
         - 10.2.1
         - 10.2.2
         - 10.3.1
+        - 10.3.2
+        - 10.4.0
         compatible:
         - 10.2.2
         verified: 10.2.2
@@ -509,11 +513,13 @@ m_PackageAssets:
         - 1.1.19
         - 1.1.20
         - 1.1.22
+        - 1.1.24
         compatible:
         - 1.1.19
         - 1.1.20
         - 1.1.22
-        verified: 1.1.22
+        - 1.1.24
+        verified: 1.1.24
       dependencies:
       - name: com.unity.ext.nunit
         version: 1.0.5
@@ -551,12 +557,12 @@ m_PackageAssets:
         url: git+https://github.com/Unity-Technologies/com.unity.test-framework.git
         revision: 83583c7273ee961612200215e8989039bbce8748
         path: 
-    - packageId: com.unity.textmeshpro@3.0.1
+    - packageId: com.unity.textmeshpro@3.0.4
       testable: 0
       isDirectDependency: 1
-      version: 3.0.1
+      version: 3.0.4
       source: 1
-      resolvedPath: C:\Users\Samir Kazah\Documents\UnityProjects\Graphics-Lab-3D-2020\Library\PackageCache\com.unity.textmeshpro@3.0.1
+      resolvedPath: C:\Users\Samir Kazah\Documents\UnityProjects\Graphics-Lab-3D-2020\Library\PackageCache\com.unity.textmeshpro@3.0.4
       assetPath: Packages/com.unity.textmeshpro
       name: com.unity.textmeshpro
       displayName: TextMeshPro
@@ -694,20 +700,20 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637314376320000000
+      datePublishedTicks: 637492944820000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/com.unity.textmeshpro.git
-        revision: 1604b62e543216408311bcd1355a7a9ca1e65765
+        revision: e2f8dffb26de9a130d5b2140d83891d9a7825330
         path: 
-    - packageId: com.unity.timeline@1.2.13
+    - packageId: com.unity.timeline@1.4.6
       testable: 0
       isDirectDependency: 1
-      version: 1.2.13
+      version: 1.4.6
       source: 1
-      resolvedPath: C:\Users\Samir Kazah\Documents\UnityProjects\Graphics-Lab-3D-2020\Library\PackageCache\com.unity.timeline@1.2.13
+      resolvedPath: C:\Users\Samir Kazah\Documents\UnityProjects\Graphics-Lab-3D-2020\Library\PackageCache\com.unity.timeline@1.4.6
       assetPath: Packages/com.unity.timeline
       name: com.unity.timeline
       displayName: Timeline
@@ -777,7 +783,9 @@ m_PackageAssets:
         - 1.5.1-pre.2
         - 1.5.1-pre.3
         - 1.5.2
+        - 1.5.4
         - 1.6.0-pre.1
+        - 1.6.0-pre.3
         compatible:
         - 1.2.6
         - 1.2.7
@@ -827,10 +835,28 @@ m_PackageAssets:
         - 1.5.1-pre.2
         - 1.5.1-pre.3
         - 1.5.2
+        - 1.5.4
         - 1.6.0-pre.1
+        - 1.6.0-pre.3
         verified: 1.4.6
-      dependencies: []
-      resolvedDependencies: []
+      dependencies:
+      - name: com.unity.modules.director
+        version: 1.0.0
+      - name: com.unity.modules.animation
+        version: 1.0.0
+      - name: com.unity.modules.audio
+        version: 1.0.0
+      - name: com.unity.modules.particlesystem
+        version: 1.0.0
+      resolvedDependencies:
+      - name: com.unity.modules.director
+        version: 1.0.0
+      - name: com.unity.modules.audio
+        version: 1.0.0
+      - name: com.unity.modules.animation
+        version: 1.0.0
+      - name: com.unity.modules.particlesystem
+        version: 1.0.0
       keywords:
       - unity
       - animation
@@ -849,13 +875,13 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637185096720000000
+      datePublishedTicks: 637463150940000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/com.unity.timeline.git
-        revision: 369ead3d734d36d836197081cc603211173c06b9
+        revision: 2fe55e5d14362cc4fdcc886f56dbfe518298e4a5
         path: 
     - packageId: com.unity.ugui@1.0.0
       testable: 0
@@ -2908,6 +2934,8 @@ m_PackageAssets:
         - 10.2.1
         - 10.2.2
         - 10.3.1
+        - 10.3.2
+        - 10.4.0
         compatible:
         - 10.2.2
         verified: 10.2.2
@@ -3049,6 +3077,8 @@ m_PackageAssets:
         - 10.2.1
         - 10.2.2
         - 10.3.1
+        - 10.3.2
+        - 10.4.0
         compatible:
         - 10.2.2
         verified: 10.2.2
@@ -3121,6 +3151,7 @@ m_PackageAssets:
         - 4.2.0
         - 4.3.0
         - 4.3.1
+        - 4.3.2
         - 4.6.0-preview
         - 4.7.0-preview
         compatible:
@@ -3135,9 +3166,10 @@ m_PackageAssets:
         - 4.2.0
         - 4.3.0
         - 4.3.1
+        - 4.3.2
         - 4.6.0-preview
         - 4.7.0-preview
-        verified: 4.3.1
+        verified: 4.3.2
       dependencies: []
       resolvedDependencies: []
       keywords:
